@@ -1,0 +1,62 @@
+body {
+ background-image: url(speed-internet-technology-background.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    right: 45%;
+    align-content: center;
+    color: aliceblue;
+    background-color: grey;
+    width: fit-content;
+}
+
+h2 {
+    margin-top: 100px;
+    position: absolute;
+    right: 50%;
+    align-content: center;
+    color: aliceblue;
+    background-color: grey;
+    width: fit-content;
+}
+
+div.eBox {
+    border-style: ridge;
+    border-width: 2mm;
+    background-color: rgb(107, 107, 107);
+}
+
+div.eBox:hover {
+    background-color: rgb(77, 76, 76);
+}
+
+#e1 {
+    position: absolute;
+    top: 50%;
+    right: 60%;
+}
+
+#e2 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+#e3 {
+    position: absolute;
+    top: 60%;
+    right: 60%;
+}
+
+#e4 {
+    position: absolute;
+    top: 60%;
+    right: 50%;
+}
+
+a {
+    color: white;
+}
