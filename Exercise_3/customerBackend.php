@@ -1,8 +1,8 @@
 <?php
     echo "<link href='style.css' rel='stylesheet' type='text/css' />";
 
-    $email = $_POST["email"];
-    $password = $_POST["password"];
+    $email = $_POST["e"];
+    $password = $_POST["pass"];
     $shipping = $_POST["shipping"];
     $apples = $_POST["apples"];
     $premium = $_POST["premium"];
@@ -15,10 +15,10 @@
     if ($shipping == "Free 7 Day") {
         $shipping_cost = 0;
     }
-    else if($shipping == "$50.00 over night") {
+    if($shipping == "$50.00 over night") {
         $shipping_cost = 50;
     }
-    else {
+    if ($shipping == "$5.00 three day") {
         $shipping_cost = 5;
     }
 
