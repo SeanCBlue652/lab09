@@ -10,9 +10,9 @@
 
     $total = $shipping + ($apples * 1) + ($premium * 2) + ($collectors * 10);
 
-    echo "<div class='box'>";
+    echo "<span class='box'>";
     echo "<p class='box'>";
     echo '<p> Email: '.$email.'</p> <br/>';
     echo "</p>";
-    echo "</div>";
+    echo "</span>";
 ?>
