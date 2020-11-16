@@ -24,12 +24,12 @@
 
     $total = $total + $shipping_cost;
 
-    echo "<p class='box' id='login'>";
-        echo "<p class='box'>";
+    echo "<p class='box'>";
+        echo "<p class='box' id='login'>";
             echo 'Email: '.$email.'<br/>';
             echo 'Password:'.$password.'<br/>';
         //echo "</p>";
-        echo "<p class='box'>";
+        echo "<p class='box' id='shipping'>";
             echo '<h3> Purchases: </h3> </br>';
             echo "&emsp;";
             echo 'Shipping: '.$shipping.' | Subtotal: $'.$shipping_cost.'</br>';
@@ -42,7 +42,7 @@
         //echo "</p>";
         echo "</br>";
         echo "<p class='box'>";
-            echo '<h1> Total: '.$total.' </h1> </br>';
+            echo '<h1 id="shopping"> Total: '.$total.' </h1> </br>';
         //echo "</p>";
     //echo "</p>";
 ?>
