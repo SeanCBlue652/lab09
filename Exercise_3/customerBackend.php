@@ -24,7 +24,7 @@
 
     $total = $total + $shipping_cost;
 
-    echo "<p class='box'>";
+    echo "<p class='box' id='login'>";
         echo "<p class='box'>";
             echo 'Email: '.$email.'<br/>';
             echo 'Password:'.$password.'<br/>';

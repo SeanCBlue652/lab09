@@ -3,3 +3,15 @@
     border-style: solid;
     border-color: black;
 }
+
+#shipping {
+    background-color: aquamarine;
+}
+
+#shopping {
+    background-color: aqua;
+}
+
+#login {
+    background-color: beige;
+}
