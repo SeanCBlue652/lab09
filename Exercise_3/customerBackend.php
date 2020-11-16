@@ -14,4 +14,5 @@
     echo "<p class='box'>";
     echo '<p> Email: '.$email.'</p> <br/>';
     echo "</p>";
+    echo "</div>";
 ?>
