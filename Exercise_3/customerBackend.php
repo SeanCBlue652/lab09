@@ -10,9 +10,25 @@
 
     $total = $shipping + ($apples * 1) + ($premium * 2) + ($collectors * 10);
 
-    echo "<span class='box'>";
     echo "<p class='box'>";
-    echo '<p> Email: '.$email.'</p> <br/>';
+        echo "<p class='box'>";
+            echo 'Email: '.$email.'<br/>';
+            echo 'Password:'.$password.'<br/>';
+        echo "</p>";
+        echo "<p class='box'>";
+            echo '<h3> Purchases: </h3> </br>';
+            echo "&emsp";
+            echo 'Shipping: '.$shipping.'</br>';
+            echo "&emsp";
+            echo 'Apples: '.$apples.'</br>';
+            echo "&emsp";
+            echo 'Premium Apples: '.$premium.'</br>';
+            echo "&emsp";
+            echo 'Collectors Edition Apples: '.$collectors.'</br>';
+        echo "</p>";
+        echo "</br>";
+        echo "<p class='box'>";
+            echo '<h1> Total: '.$total.' </h1> </br>';
+        echo "</p>";
     echo "</p>";
-    echo "</span>";
 ?>
