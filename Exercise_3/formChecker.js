@@ -55,14 +55,14 @@ function checkForm() {
 }
 
 let checkEmail = (input) => {
-    input = input.trim().toLowerCase();
-    if (input.includes("@")) {
-        let current = input.charAt(0);
+    let clean = input.trim().toLowerCase();
+    if (clean.includes("@")) {
+        let current = clean.charAt(0);
         let site = "";
-        for (let i = 0; i < input.length; i++) {
-            current = input.charAt(i);
+        for (let i = 0; i < clean.length; i++) {
+            current = clean.charAt(i);
             if (current == "@") {
-                site = input.substr(i,input.length);
+                site = input.substr(i,clean.length);
                 if (site.includes(".")) {
                     break;
                 } else {
