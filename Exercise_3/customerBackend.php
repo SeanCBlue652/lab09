@@ -10,5 +10,5 @@
 
     echo "<div class='box'>";
     echo "<p class='box'>";
-    echo "Email: $email <br/>";
+    echo "<p> Email: $email </p> <br/>";
 ?>
