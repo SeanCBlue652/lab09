@@ -62,5 +62,4 @@ echo "<br/>";
 echo "You scored $amount_correct out of 5 <br/>";
 $result = $amount_correct*20;
 echo "Score: $result / 100 <br/>"
-echo "</div>";
 ?>
