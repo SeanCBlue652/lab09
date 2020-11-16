@@ -22,7 +22,7 @@
         $shipping_cost = 5;
     }
 
-    $total = $total + $shipping_cost
+    $total = $total + $shipping_cost;
 
     echo "<p class='box'>";
         echo "<p class='box'>";
