@@ -1,4 +1,6 @@
 <?php
+    echo "<link href='style.css' rel='stylesheet' type='text/css' />";
+
     $email = $_POST["email"];
     $password = $_POST["password"];
     $shipping = $_POST["shipping"];
