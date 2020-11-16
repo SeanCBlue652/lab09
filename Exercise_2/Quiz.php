@@ -24,7 +24,7 @@ if($q2 == "Steve") {
     $amount_correct++;
 }
 echo "&emsp;";
-echo "You answered: $q1 <br/>";
+echo "You answered: $q2 <br/>";
 echo "&emsp;";
 echo "Correct Answer: Steve <br/>";
 echo "<br/>";
@@ -34,7 +34,7 @@ if($q3 == "Blue") {
     $amount_correct++;
 }
 echo "&emsp;";
-echo "You answered: $q1 <br/>";
+echo "You answered: $q3 <br/>";
 echo "&emsp;";
 echo "Correct Answer: Blue <br/>";
 echo "<br/>";
@@ -44,7 +44,7 @@ if($q4 == "Dog") {
     $amount_correct++;
 }
 echo "&emsp;";
-echo "You answered: $q1 <br/>";
+echo "You answered: $q4 <br/>";
 echo "&emsp;";
 echo "Correct Answer: Dog <br/>";
 echo "<br/>";
@@ -54,7 +54,7 @@ if($q5 == "19") {
     $amount_correct++;
 }
 echo "&emsp;";
-echo "You answered: $q1 <br/>";
+echo "You answered: $q5 <br/>";
 echo "&emsp;";
 echo "Correct Answer: 19 <br/>";
 echo "<br/>";
